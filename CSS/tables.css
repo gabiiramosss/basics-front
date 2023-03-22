@@ -1,0 +1,71 @@
+/* FONTS */
+@font-face {
+    font-family: "titilliumweb-black";
+    src: url(../Assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: "titilliumweb-bold";
+    src: url(../Assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gamer Project */
+
+.gamer-project h1 {
+    text-align: center;
+}
+
+.gamer-project table {
+    width: 335px;
+    height: 503px;
+    margin: 20px auto 0;
+}
+
+.gamer-project table th {
+    text-align: start;
+    font-family: "titilliumweb-black";
+    font-size: 20px;
+    color: #F9AA01;
+}
+
+.gamer-project table tr {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.gamer-project table tbody td {
+    font-family: "titilliumweb-bold";
+    font-size: 18px;
+}
+
+/* Group Table */
+
+.group-table h2 {
+    text-align: center;
+}
+
+.group-table table {
+    width: 50%;
+    margin: 20px auto 0;
+    border: 1px solid black;
+}
+
+.group-table table th {
+    border: 1px solid red;
+    text-align: center;
+}
+
+.group-table table tbody td{
+    border-right: 2px solid green;
+}
+
+.group-table table tbody td:last-of-type {
+    border: none;
+}

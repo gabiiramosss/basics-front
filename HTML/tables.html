@@ -1,58 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/tables.css">
     <title>Tables</title>
 </head>
+
 <body>
-    <h1>Cadastro de Equipes</h1>
+    <div class="gamer-project">
+        <h1>Cadastro de Equipes</h1>
 
-    <table border="1">
+        <table>
 
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Nome</th>
-                <th>Foto</th>
-                <th>&hearts;</th>
-            </tr>
-        </thead>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Foto</th>
+                    <th></th>
+                </tr>
+            </thead>
 
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Loud</td>
-                <td><img src="../Assets/tables/profile-image.png" alt=""></td>
-                <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
-            </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Loud</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
 
-            <tr>
-                <td>2</td>
-                <td>Loud</td>
-                <td><img src="../Assets/tables/profile-image.png" alt=""></td>
-                <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
-            </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Loud</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
 
-            <tr>
-                <td>3</td>
-                <td>Loud</td>
-                <td><img src="../Assets/tables/profile-image.png" alt=""></td>
-                <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
-            </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Loud</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
 
-            <tr>
-                <td>4</td>
-                <td>Loud</td>
-                <td><img src="../Assets/tables/profile-image.png" alt=""></td>
-                <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
-            </tr>
-        </tbody>
+                <tr>
+                    <td>4</td>
+                    <td>Loud</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
+            </tbody>
 
-        <tfoot></tfoot> <!-- nem sempre e utilizado -->
+            <tfoot></tfoot> <!-- nem sempre e utilizado -->
 
-    </table>
+        </table>
+    </div>
+
+    <div class="group-table">
+        <h2>Mesa chave</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Foto</th>
+                    <th>&#9760;</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Gabi</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Sigma</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Rubens</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Mateus</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>Lucas</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td>Wandinho</td>
+                    <td><img src="../Assets/tables/profile-image.png" alt=""></td>
+                    <td><img src="../Assets/tables/garbage-can.svg" alt=""></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total:</td>
+                    <!-- colspan refere-se ao espaçamento da coluna, que é definida de acordo com a quantidade de colunas  -->
+                    <td>6</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </div>
 
 </body>
+
 </html>
