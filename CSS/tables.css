@@ -35,11 +35,6 @@
     color: #F9AA01;
 }
 
-.gamer-project table tr {
-    border: 1px solid black;
-    border-radius: 8px;
-}
-
 .gamer-project table tbody td {
     font-family: "titilliumweb-bold";
     font-size: 18px;
@@ -68,4 +63,92 @@
 
 .group-table table tbody td:last-of-type {
     border: none;
+}
+
+/* Table */
+main .cadastro-equipes table {
+    width: 335px;
+}
+
+/* tbody */
+main .cadastro-equipes thead,
+main .cadastro-equipes tbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* linha do cabeçalho da tabela */
+main .cadastro-equipes thead tr {
+    margin-bottom: 30px;
+    border-bottom: 3px solid #F9AA01;
+}
+
+/* linha do cabeçalho */
+main .cadastro-equipes table thead th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50px;
+    color: #F9AA01;
+    font-family: TitilliumWeb-Black;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+/* linhas da tabela, independentemente do cabeçalho ou corpo */
+main .cadastro-equipes table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .cadastro-equipes table tbody tr {
+    height: 125px;
+    
+    margin-bottom: 24px;
+
+    border: 2px solid transparent;
+    border-radius: 8px;
+
+    background: linear-gradient(91.42deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 100%);
+    backdrop-filter: blur(4px);
+
+    /* linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box; */
+}
+
+main .cadastro-equipes table td {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid #F9AA01;
+}
+
+main .cadastro-equipes .id-td {
+    font-family: "titilliumweb-bold";
+    font-size: 18px;
+    color: white;
+}
+
+main .cadastro-equipes .name-td {
+    font-family: "titilliumweb-bold";
+    font-size: 18px;
+    color: white;
+}
+
+main .cadastro-equipes table td:last-of-type {
+    border: none;
+}
+
+main .cadastro-equipes table td img.green-play {
+    width: 25px;
+}
+
+main .cadastro-equipes table td img.yellow-trash {
+    width: 15px;
 }
